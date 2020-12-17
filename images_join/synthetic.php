@@ -41,3 +41,4 @@ imagecopyresampled(
 
 imagejpeg($dst_image, $newfile);
 // imagedestroy($dst_image);
+echo "<img src = 'FreamQR.jpg'>";
