@@ -29,7 +29,7 @@ $resize_h = $src_h / ($src_w / $resize_w);
 imagecopyresampled(
     $dst_image, // コピー先の画像
     $src_image, // コピー元の画像
-    110,         // コピー先の x 座標
+    115,         // コピー先の x 座標
     45,         // コピー先の y 座標。
     0,          // コピー元の x 座標
     0,          // コピー元の y 座標
